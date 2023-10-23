@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* HEADER */
 .container-header {
-    background-color: aquamarine;
+    background-color: rgb(42, 94, 232);
     width: 100%;
     display: flex;
     padding: 20px;
@@ -48,16 +49,16 @@
     padding-right: 16px;
 }
 
-/* MAIN */
-/* DIV BG BLU */
+/* DIV BG IMAGE */
 .container-blu {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 250px;
-    border-bottom: 3px solid aquamarine;
+    height: 400px;
 }
 
-.row-blu {
+.row-image {
     width: 100%;
     display: flex;
     height: 90%;
@@ -65,12 +66,12 @@
     padding: 20px 0 0 10px;
 }
 
-.column-violet {
+.column-content {
     width: 50%;
-    background-color: violet;
-    border: 1px dotted black;
+    background-color: transparent;
 }
 
+/* MAIN */
 /* DIV BG WHITE */
 .container-white {
     background-color: white;
