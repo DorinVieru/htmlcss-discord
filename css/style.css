@@ -155,17 +155,17 @@
 .scarica-blu {
     color: white;
     font-weight: 600;
-    background-color: rgb(11, 84, 179);
+    background-color: rgb(116, 140, 217);
     border-radius: 20px;
     padding: 20px;
 }
 
 /* DIV BG DARK BLU */
-/* .container-dark-blu {
-    background-color: rgb(4, 4, 96);
+.container-dark-blu {
+    background-color: rgb(26, 26, 51);
     width: 100%;
     height: 250px;
-    border-bottom: 3px solid white;
+    border-bottom: 1px solid rgb(116, 140, 217);
 }
 
 .row-dark-blu {
@@ -179,18 +179,17 @@
 .column-rose {
     width: 25%;
     background-color: rosybrown;
-    border: 1px dotted black;
 }
 
 .column-light-green{
     width: 10%;
     background-color: lightgreen;
-    border: 1px dotted white; */
-
+    border: 1px dotted white;
+}
 
 /* FOOTER */
-/* .container-dark-blu-footer {
-    background-color: rgb(4, 4, 96);
+.container-dark-blu-footer {
+    background-color: rgb(26, 26, 51);
     width: 100%;
     display: flex;
     padding: 20px 0 0;
@@ -205,14 +204,10 @@
 
 .column-footer {
     width: 65%;
-    background-color: aqua;
+    background-color: rgb(26, 26, 51);
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
 
-.footer {
-    width: 7%;
-    background-color: pink;
-    border: 1px dotted black;
-} */
+/* colore pulsanti rgb(116, 140, 217) */
