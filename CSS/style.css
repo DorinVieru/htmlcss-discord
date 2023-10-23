@@ -93,57 +93,75 @@
 .container-white {
     background-color: white;
     width: 100%;
-    height: 250px;
+    height:500px;
 }
 
 .row-white {
     width: 100%;
     display: flex;
-    height: 90%;
+    height: 100%;
     justify-content: center;
-    padding: 20px 0 0 10px;
+    padding: 20px 0 40px 0px;
+    margin-top: 40px;
 }
 
+.column-content-main {
+    width: 40%;
+    padding-left: 60px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
-
-.column-pink {
-    width: 25%;
-    background-color: pink;
-    border: 1px dotted black;
+.title-content{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
 }
 
 /* DIV BG GRAY */
 .container-gray {
-    background-color: lightgray;
+    background-color: rgb(231, 230, 230);
     width: 100%;
-    height: 250px;
+    height: 600px;
 }
 
-.row-gray {
-    width: 100%;
+.gray{
     display: flex;
-    height: 90%;
-    justify-content: center;
     flex-direction: row-reverse;
-    padding: 20px 0 0 10px;
 }
 
 /* DIV BG GRAY SECOND */
-.container-gray-second {
+.container-gray-second{
     background-color: lightgray;
     width: 100%;
-    height: 400px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-.column-green {
-    width: 65%;
-    height: 105%;
-    background-color: green;
-    border: 1px dotted black;
+.row-gray{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 40px 0px;
+    margin-top: 40px;
+}
+
+.avventura{
+    padding: 0 0 40px 0;
+}
+
+.scarica-blu {
+    color: white;
+    font-weight: 600;
+    background-color: rgb(11, 84, 179);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 /* DIV BG DARK BLU */
-.container-dark-blu {
+/* .container-dark-blu {
     background-color: rgb(4, 4, 96);
     width: 100%;
     height: 250px;
@@ -164,14 +182,14 @@
     border: 1px dotted black;
 }
 
-.column-light-green {
+.column-light-green{
     width: 10%;
     background-color: lightgreen;
-    border: 1px dotted white;
-}
+    border: 1px dotted white; */
+
 
 /* FOOTER */
-.container-dark-blu-footer {
+/* .container-dark-blu-footer {
     background-color: rgb(4, 4, 96);
     width: 100%;
     display: flex;
@@ -197,4 +215,4 @@
     width: 7%;
     background-color: pink;
     border: 1px dotted black;
-}
+} */
