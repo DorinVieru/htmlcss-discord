@@ -165,3 +165,72 @@
 
 /* FOOTER */
 /* DIV BG DARK BLU */
+.container-dark-blu {
+    background-color: rgb(26, 26, 51);
+    width: 100%;
+    height: 400px;
+    border-bottom: 1px solid rgb(116, 140, 217);
+}
+
+.row-dark-blu {
+    width: 100%;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    padding: 20px 0 0 10px;
+}
+
+.column-one {
+    width: 25%;
+    color: white;
+}
+
+.title-footer {
+    color: rgb(116, 140, 217);
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.bandiera-ita {
+    height: 20px;
+}
+
+p {
+    color: white;
+    padding: 4px;
+}
+
+
+.column-other {
+    width: 15%;
+}
+
+/* DIV WITH LOGO AND REGISTRATI */
+.container-dark-blu-footer {
+    background-color: rgb(26, 26, 51);
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.row-footer {
+    width: 100%;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+}
+
+.column-footer {
+    width: 65%;
+    background-color: rgb(26, 26, 51);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.column-bottone {
+    color: white;
+    background-color: rgb(116, 140, 217);
+    border-radius: 20px;
+    padding: 10px;
+}
